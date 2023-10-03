@@ -1,11 +1,11 @@
-About babeltrace
-================
+About babeltrace-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/babeltrace-feedstock/blob/main/LICENSE.txt)
 
 Home: https://babeltrace.org/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/babeltrace-feedstock/blob/main/LICENSE.txt)
 
 Summary: Babeltrace, an EfficiOS project, is an open-source trace manipulation toolkit.
 

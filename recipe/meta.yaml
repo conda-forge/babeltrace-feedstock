@@ -1,5 +1,5 @@
 {% set name = "babeltrace" %}
-{% set version = "1.5.8" %}
+{% set version = "2.0.0" %}
 
 package:
   name: babeltrace
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://www.efficios.com/files/{{ name }}/{{ name }}-{{ version }}.tar.bz2
-  sha256: 9ff143e4d1d7f1902b05542ac8f1747fb2d7e0ca31c6fa39ccae5765e11d6fc2
+  sha256: 4511441d98066fdfa00668f1c46036cc81c4582e3802cf861aab5e60960ebfde
 
 build:
-  number: 2
-  skip: True  # [not linux or py>=310]
+  number: 0
+  skip: true  # [not linux or py>=310]
   run_exports:
     - '{{ pin_subpackage(name, max_pin="x.x") }}'
 
